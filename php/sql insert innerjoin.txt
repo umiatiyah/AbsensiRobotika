@@ -1,0 +1,5 @@
+$sql1 = "INSERT INTO tb_finger (id) VALUES('$id')";
+	$sql2 = "INSERT INTO tb_siswa (id,nis,nama,kelas) VALUES('$id','$nis','$nama','$kelas')";
+	mysqli_query($dbconnect,$sql1);
+	mysqli_query($dbconnect,$sql2);
+       
